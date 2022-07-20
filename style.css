@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(14, 61, 190);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.containar input{
+    height: 37px;
+    border: none;
+    outline: none;
+    background-color: aliceblue;
+    width: 0px;
+    transition-duration: 2s;
+}
+.containar button{
+    height:37px ;
+    width: 45px;
+    margin-left: -4px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: aliceblue;
+}
